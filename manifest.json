@@ -1,7 +1,7 @@
 {
   "name": "Pride Travel Scout",
   "short_name": "PrideTravel",
-  "start_url": ""https://pridetravel.github.io/Pride-Travel-Scout/index.html",
+  "start_url": "https://pridetravel.github.io/Pride-Travel-Scout/index.html",
   "display": "standalone",
   "background_color": "#0f172a",
   "theme_color": "#0f172a",
