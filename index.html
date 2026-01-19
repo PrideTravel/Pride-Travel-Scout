@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pride Travel Scout</title>
-<link rel="manifest" href="./manifest.json">
+<link rel="manifest" href="https://pridetravel.github.io/Pride-Travel-Scout/manifest.json">
+    
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -1830,19 +1831,7 @@ function getMonthName(dateString) {
 
 </script>
     <script>
-        if ('serviceWorker' in navigator) {
-            window.addEventListener('load', () => {
-                navigator.serviceWorker.register('./service-worker.js')
-                    .then(reg => console.log('SW registered!', reg))
-                    .catch(err => console.log('SW failed', err));
-            });
-        }
-        <script>
-  if ('serviceWorker' in navigator) {
-    window.addEventListener('load', () => {
-      navigator.serviceWorker.register('./sw.js')
-        .then((reg) => console.log('Service Worker registered!', reg))
-        .catch((err) => console.log('Service Worker failed:', err));
+      navigator.serviceWorker.register('https://pridetravel.github.io/Pride-Travel-Scout/sw.js')
     });
   }
 </script>
